@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>DrivenEats</title>
+</head>
+
+<body>
+    <div id="containerTitulo">
+        <div id="titulo">
+            <h1>DrivenEats</h1>
+            <h3>Sua comida em 6 minutos</h3>
+        </div>
+    </div>
+    <div class="selecione">
+        <h1 class="tituloProdutos">Primeiro, seu prato</h1>
+        <div class="containerProduto" >
+            <div class="produto" onclick="pratoPrincipal(this)">
+                <img src="imagens/frango_yin_yang 1.png" alt="">
+                <h2>Frango Yin Yang</h2>
+                <h3>Um pouco de batata,<br>um pouco de salada</h3>
+                <h4>R$14,90<img src="imagens/checkmark-circle 1.png" alt=""></h4>
+            </div>
+            <div class="produto" onclick="pratoPrincipal(this)">
+                <img src="imagens/frango_yin_yang 1.png" alt="">
+                <h2>Frango Yin Yang</h2>
+                <h3>Um pouco de batata,<br>um pouco de salada</h3>
+                <h4>R$15,90<img src="imagens/checkmark-circle 1.png" alt=""></h4>
+            </div>
+            <div class="produto" onclick="pratoPrincipal(this)">
+                <img src="imagens/frango_yin_yang 1.png" alt="">
+                <h2>Frango Yin Yang</h2>
+                <h3>Um pouco de batata,<br>um pouco de salada</h3>
+                <h4>R$16,90 <img src="imagens/checkmark-circle 1.png" alt=""> </h4>
+            </div>
+        </div>
+    </div>
+    <div class="selecione">
+        <h1 class="tituloProdutos">Agora, sua bebida</h1>
+        <div class="containerProduto">
+            <div class="produto"  onclick="bebida(this)">
+                <img src="imagens/coquinha_gelada 1.png" alt="">
+                <h2>Coquinha Gelada</h2>
+                <h3>lata 350ml</h3>
+                <h4>R$4,90<img src="imagens/checkmark-circle 1.png" alt=""></h4>
+            </div>
+            <div class="produto"  onclick="bebida(this)">
+                <img src="imagens/coquinha_gelada 1.png" alt="">
+                <h2>Coquinha Gelada</h2>
+                <h3>lata 350ml</h3>
+                <h4>R$5,90<img src="imagens/checkmark-circle 1.png" alt=""></h4>
+            </div>
+            <div class="produto"  onclick="bebida(this)">
+                <img src="imagens/coquinha_gelada 1.png" alt="">
+                <h2>Coquinha Gelada</h2>
+                <h3>lata 350ml</h3>
+                <h4>R$6,90<img src="imagens/checkmark-circle 1.png" alt=""></h4>
+            </div>
+        </div>
+    </div>
+    <div class="selecione">
+        <h1 class="tituloProdutos">Por fim, sua sobremesa</h1>
+        <div class="containerProduto" >
+            <div class="produto sobremesa" onclick="sobremesa(this)">
+                <img src="imagens/pudim 1.png" alt="" >
+                <h2>Pudim</h2>
+                <h3>Apenas pudim</h3>
+                <h4>R$7,90<img src="imagens/checkmark-circle 1.png" alt=""></h4>
+            </div>
+            <div class="produto sobremesa" onclick="sobremesa(this)">
+                <img src="imagens/pudim 1.png" alt="">
+                <h2>Pudim</h2>
+                <h3>Apenas pudim</h3>
+                <h4>R$8,90<img src="imagens/checkmark-circle 1.png" alt=""></h4>
+            </div>
+            <div class="produto sobremesa" onclick="sobremesa(this)">
+                <img src="imagens/pudim 1.png" alt="" >
+                <h2>Pudim</h2>
+                <h3>Apenas pudim</h3>
+                <h4>R$9,90<img src="imagens/checkmark-circle 1.png" alt=""></h4>
+            </div>
+        </div>
+    </div>
+    <div id="containerBtnConfirmar">
+        <div class="btnConfirmar">
+            <button>Selecione os 3 itens<br>para fechar o pedido</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+</html>
